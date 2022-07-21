@@ -7,7 +7,7 @@ mydb = conn.connect(
 
 cur=mydb.cursor()
 cur.execute("use college")
-cur.execute("show tables")
+
 cur.fetchall()
 cur.execute("select * from student")
 myresult=cur.fetchall()
