@@ -15,4 +15,4 @@ print(type(myresult))
 print(myresult)
 for x in myresult:
   print(x)
-  print("nh")
+  print("n")
